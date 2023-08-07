@@ -1,0 +1,64 @@
+html{
+    background-color: rgb(171, 0, 0);
+}
+
+.header{
+    display: flex;
+    margin-left: 50px;
+}
+
+
+.pokemones_Contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.X_class{
+    background-color: red;
+    padding: 8px;
+    transform: rotate(55deg);
+    position: relative;
+    bottom:100px;
+}
+
+.div_Pokemones{
+    margin: 20px;
+    border-radius: 60px;
+    /* border: 10px black solid; */
+    transition: 0.5s background-color ;
+}
+
+.contenedorImg{
+    background-color: red;
+    border: 10px black solid;
+    background: #23074d;
+    border-radius: 60px;
+}
+
+.div_Pokemones:hover{
+    background-color: yellow;
+}
+
+.no-capturado{
+    background: #23074d;
+}
+
+.capturado{
+    background-color: red;
+}
+
+.img_class{
+    max-width: 300px;
+    height: 200px;
+}
+
+.Centro_Todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Letras_blancas{
+    color: white;
+}
